@@ -3,7 +3,7 @@ package main;
 import cats.Cat;
 import dogs.Dog;
 
-abstract class Animal {
+public class Animal {
 
     private String name;
     private int weight;
