@@ -4,7 +4,7 @@ import cats.*;
 import dogs.*;
 import main.Food;
 
-abstract class Animal {
+public class Animal {
 
     private String name;
     private int weight;
