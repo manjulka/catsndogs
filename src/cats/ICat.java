@@ -2,5 +2,5 @@ package cats;
 
 
 public interface ICat {
-    public static void doMeow();
+    public void doMeow();
 }
