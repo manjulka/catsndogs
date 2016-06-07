@@ -1,6 +1,7 @@
 package cats;
 
 import java.util.Scanner;
+import main.Animal;
 
 public class Cat extends Animal implements ICat {
 
