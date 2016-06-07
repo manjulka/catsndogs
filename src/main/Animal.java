@@ -1,26 +1,25 @@
 package main;
 
-import cats.*;
-import dogs.*;
-import main.Food;
+import cats.Cat;
+import dogs.Dog;
 
 abstract class Animal {
 
     private String name;
     private int weight;
 
-    public void eatCat(main.Food.foodWeight) {
+       public void eatCat(Food food) {
 
-         weight = +main.Food.foodWeight;
-         Animal out1 = new Animal(); 
-        out1.doMeow();  
+        weight = +food.foodWeight;
+        Cat out1 = new Cat();
+        out1.doMeow();
     }
 
-    public void eatDog(main.Food.foodWeight) {  
+    public void eatDog(Food food) {
 
-        weight = +main.Food.foodWeight; 
-        Animal out2 = new Animal(); 
-        out2.dogs.Dog.doBark();  
+        weight = +food.foodWeight;
+        Dog out2 = new Dog();
+        out2.doBark();
     }
 
     public static void main(String[] args) { 
