@@ -24,8 +24,8 @@ abstract class Animal {
 
     public static void main(String[] args) { 
 
-        Animal doze = new Animal(); 
-        doze.Food.getDozeWeight(); 
+        Food doze = new Food(); 
+        doze.getDozeWeight(); 
         Animal cat1 = new Animal(); 
         Animal dog1 = new Animal(); 
         cat1.name = cats.Cat.catName; 
