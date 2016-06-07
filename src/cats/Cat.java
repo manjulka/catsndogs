@@ -2,15 +2,15 @@ package cats;
 
 import java.util.Scanner;
 
-public class Cat implements ICat extends Animal {
+public class Cat extends Animal implements ICat {
 
-    public static String catName;
+    public String catName;
 
 
-    public static void doMeow(){
+    public void doMeow(){
 
         Scanner inc = new Scanner(System.in);
-        catName = inc.nextLine("Cat name: ");
+        catName = inc.nextLine();
         System.out.println("My name is " + catName + ". Meow meow");
     }
 
